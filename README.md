@@ -1,0 +1,1 @@
+This repository demonstrates a subtle error in COBOL related to handling blank customer names.  The code uses MOVE SPACES to initialize a field, but this does not correctly handle a true null or absent customer name.  The solution corrects this logic, illustrating best practices for data validation in COBOL.
