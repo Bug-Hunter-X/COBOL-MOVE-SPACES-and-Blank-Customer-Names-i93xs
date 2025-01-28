@@ -1,0 +1,7 @@
+MOVE SPACES TO WS-CUSTOMER-NAME.
+
+IF WS-CUSTOMER-NAME IS NULL THEN
+    DISPLAY "Customer name is missing".
+ELSE
+    DISPLAY "Customer name is ", WS-CUSTOMER-NAME.
+END-IF.
